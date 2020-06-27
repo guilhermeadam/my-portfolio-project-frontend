@@ -7,8 +7,8 @@ import "./styles.css";
 import logo from "../../assets/logo_size.jpg";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("teste@teste.com");
-  const [password, setPassword] = useState("1234");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const history = useHistory();
 
